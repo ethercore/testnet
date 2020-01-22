@@ -39,3 +39,40 @@ All clients supporting the go-ethercore protocol are able to sync with EtherCore
 ##### Go-EtherCore
 
 You can connect Geth to EtherCore Testnet by executing `geth --test`. https://github.com/ethercoreorg/go-ethercore/releases/latest
+
+## Receiving Testnet Coins
+
+Create new wallet from https://wallet.ethercore.org/?network=ethercore_testnet and receive some testnet coins from https://testnet-faucet.ethercore.org to play with
+
+## Connecting Metamask
+
+You could connect EtherCore Testnet with your Metamask plugin installed on your browser.
+
+Add the following config value to Custom RPC settings.
+
+- Network Name: `EtherCore`
+
+- New RPC URL: `https://testnet-rpc.ethercore.org`
+
+- ChainID: `468`
+
+- Symbol: `ERE`
+
+- Block Explorer URL: `https://testnet-explorer.ethercore.org`
+
+Now you could use your Metamask plugin to receive testnet coins, deploying contract with https://remix.ethereum.org, and interacting DApps deployed on Testnet EtherCore!
+
+## Mining on Testnet EtherCore
+
+Not only requesting coins from faucet, you could also mine some testnet coins via testnet pool https://testnet-pool.ethercore.org
+
+Like mining on Mainnet, fetch the [EthCoreMiner](https://github.com/ethercoreorg/ethcoreminer/releases/latest) and start your miner with the following configuration.
+
+Here is the example bat file for windows
+
+```
+:start
+TIMEOUT 10
+ethcoreminer.exe -P stratum1+tcp://0xbf0d596191fed3c4ed421a42ee4b9bf21bc1139d.rig1@testnet-pool.ethercore.org:8008
+goto start
+```
