@@ -31,7 +31,7 @@ Welcome to EtherCore Testnet!
 - Public RPC Endpoint: https://testnet-rpc.ethercore.org
 - Telegram Support: https://t.me/ethercore
 
-### Connecting the clients
+## Connecting the clients
 
 All clients supporting the go-ethercore protocol are able to sync with EtherCore Testnet.
 
