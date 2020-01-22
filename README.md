@@ -60,7 +60,7 @@ Add the following config value to Custom RPC settings.
 
 - Block Explorer URL: `https://testnet-explorer.ethercore.org`
 
-Now you could use your Metamask plugin to receive testnet coins, deploying contract with https://remix.ethereum.org, and interacting DApps deployed on Testnet EtherCore!
+Now you could use your Metamask plugin to receive testnet coins, deploying contract with https://remix.ethereum.org, and interacting DApps deployed on EtherCore Testnet!
 
 ## Mining on EtherCore Testnet
 
