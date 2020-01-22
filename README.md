@@ -62,7 +62,7 @@ Add the following config value to Custom RPC settings.
 
 Now you could use your Metamask plugin to receive testnet coins, deploying contract with https://remix.ethereum.org, and interacting DApps deployed on Testnet EtherCore!
 
-## Mining on Testnet EtherCore
+## Mining on EtherCore Testnet
 
 Not only requesting coins from faucet, you could also mine some testnet coins via testnet pool https://testnet-pool.ethercore.org
 
