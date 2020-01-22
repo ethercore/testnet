@@ -28,6 +28,7 @@ Welcome to EtherCore Testnet!
 - Block Explorer: https://testnet-explorer.ethercore.org
 - Mining Pool: https://testnet-pool.ethercore.org
 - Wallet: https://wallet.ethercore.org/?network=ethercore_testnet
+- Faucet: https://testnet-faucet.ethercore.org
 - Public RPC Endpoint: https://testnet-rpc.ethercore.org
 - Telegram Support: https://t.me/ethercore
 
