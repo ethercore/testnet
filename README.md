@@ -1,4 +1,4 @@
-# testnet
+# EtherCore Testnet
 
 ![EtherCore Logo](./ethercore.png)
 
@@ -23,6 +23,7 @@ Welcome to EtherCore Testnet!
   - Petersburg: `0`
   - Istanbul: `0`
   - ProgPoW: `0`
+  - EtherCore: `0`
 - Status Dashboard: http://testnet-stats.ethercore.org
 - Block Explorer: https://testnet-explorer.ethercore.org
 - Mining Pool: https://testnet-pool.ethercore.org
