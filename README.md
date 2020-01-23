@@ -34,7 +34,7 @@ Welcome to EtherCore Testnet!
 
 ## Connecting the clients
 
-All clients supporting the go-ethercore protocol are able to sync with EtherCore Testnet.
+All clients supporting the go-ethercore protocol can sync with EtherCore Testnet.
 
 ##### Go-EtherCore
 
