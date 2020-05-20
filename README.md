@@ -4,7 +4,7 @@
 
 Welcome to EtherCore Testnet!
 
-### Portal: https://testnet.ethercore.org/
+### Portal: https://testnet.ethercore.io/
 
 ## Meta data
 
@@ -24,12 +24,12 @@ Welcome to EtherCore Testnet!
   - Istanbul: `0`
   - ProgPoW: `0`
   - EtherCore: `0`
-- Status Dashboard: http://testnet-stats.ethercore.org
-- Block Explorer: https://testnet-explorer.ethercore.org
-- Mining Pool: https://testnet-pool.ethercore.org
-- Wallet: https://wallet.ethercore.org/?network=ethercore_testnet
-- Faucet: https://testnet-faucet.ethercore.org
-- Public RPC Endpoint: https://testnet-rpc.ethercore.org
+- Status Dashboard: http://testnet-stats.ethercore.io
+- Block Explorer: https://testnet-explorer.ethercore.io
+- Mining Pool: https://testnet-pool.ethercore.io
+- Wallet: https://wallet.ethercore.io/?network=ethercore_testnet
+- Faucet: https://testnet-faucet.ethercore.io
+- Public RPC Endpoint: https://testnet-rpc.ethercore.io
 - Telegram Support: https://t.me/ethercore
 
 ## Connecting the clients
@@ -38,7 +38,7 @@ All clients supporting the go-ethercore protocol can sync with EtherCore Testnet
 
 ##### Go-EtherCore
 
-You can connect Geth to EtherCore Testnet by executing `geth --test`. https://github.com/ethercoreorg/go-ethercore/releases/latest
+You can connect Geth to EtherCore Testnet by executing `geth --test`. https://github.com/ethercore/go-ethercore/releases/latest
 
 ## Connecting Metamask
 
@@ -48,31 +48,31 @@ Add the following config value to Custom RPC settings.
 
 - Network Name: `EtherCore`
 
-- New RPC URL: `https://testnet-rpc.ethercore.org`
+- New RPC URL: `https://testnet-rpc.ethercore.io`
 
 - ChainID: `468`
 
 - Symbol: `ERE`
 
-- Block Explorer URL: `https://testnet-explorer.ethercore.org`
+- Block Explorer URL: `https://testnet-explorer.ethercore.io`
 
 Now you could use your Metamask plugin to receive testnet coins, deploying contract with https://remix.ethereum.org, and interacting DApps deployed on EtherCore Testnet!
 
 ## Receiving Testnet Coins
 
-Create new wallet from https://wallet.ethercore.org/?network=ethercore_testnet or Metamask and receive some testnet coins from https://testnet-faucet.ethercore.org to play with
+Create new wallet from https://wallet.ethercore.io/?network=ethercore_testnet or Metamask and receive some testnet coins from https://testnet-faucet.ethercore.io to play with
 
 ## Mining on EtherCore Testnet
 
-Not only requesting coins from faucet, you could also mine some testnet coins via testnet pool https://testnet-pool.ethercore.org
+Not only requesting coins from faucet, you could also mine some testnet coins via testnet pool https://testnet-pool.ethercore.io
 
-Like mining on Mainnet, fetch the [EthCoreMiner](https://github.com/ethercoreorg/ethcoreminer/releases/latest) and start your miner with the following configuration.
+Like mining on Mainnet, fetch the [EthCoreMiner](https://github.com/ethercore/ethcoreminer/releases/latest) and start your miner with the following configuration.
 
 Here is the example bat file for windows
 
 ```
 :start
 TIMEOUT 10
-ethcoreminer.exe -P stratum1+tcp://0xbf0d596191fed3c4ed421a42ee4b9bf21bc1139d.rig1@testnet-pool.ethercore.org:8008
+ethcoreminer.exe -P stratum1+tcp://0xbf0d596191fed3c4ed421a42ee4b9bf21bc1139d.rig1@testnet-pool.ethercore.io:8008
 goto start
 ```
